@@ -1,0 +1,11 @@
+def generate_pattern(n):
+  for i in range(n):
+    for j in range(n):
+      if (i + j) % 2 == 0:
+        print('*', end=' ')
+      else:
+        print(' ', end=' ')
+    print()
+
+# Test the function
+generate_pattern(5)
